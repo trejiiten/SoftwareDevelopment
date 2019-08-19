@@ -1,0 +1,480 @@
+   <section class="hero">
+        <img src="front-end/assets/main/hero-image.jpg" alt="All New Maserati">
+        <div class="headline-overlay">Find The Car of Your Dreams</div>
+    </section>
+
+    <section class="search">
+        <div class="container">
+            <div class="button-links">
+                <button>NEW</button>
+                <button>USED</button>
+                <button>CERTIFIED</button>
+            </div>
+            <div class="search-fields">
+                <div class="search-make">Search by Make</div>
+                <form autocomplete="off">
+                    <select aria-label="Select a make" name="makeId">
+                        <option selected="" value="0">Car Brand</option>
+                        <option value="1">Audi</option>
+                        <option value="2">BMW</option>
+                        <option value="3">Citroen</option>
+                        <option value="4">Ford</option>
+                        <option value="5">Honda</option>
+                        <option value="6">Jaguar</option>
+                        <option value="7">Land Rover</option>
+                        <option value="8">Mercedes</option>
+                        <option value="9">Mini</option>
+                        <option value="10">Nissan</option>
+                        <option value="11">Toyota</option>
+                        <option value="12">Volvo</option>
+                    </select>
+                    <select aria-label="Select a model" name="modelId">
+                        <option selected="" value="0">Model</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                        <option value="4">Option 4</option>
+                        <option value="5">Option 5</option>
+                    </select>
+                    <select aria-label="Select a trim" name="trimId">
+                        <option selected="" value="0">Trim</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                        <option value="4">Option 4</option>
+                        <option value="5">Option 5</option>
+                    </select>
+                    <select aria-label="Select a maximum price" name="priceMax">
+                        <option selected="" value="0">Max Price</option>
+                        <option value="2000">$2,000</option>
+                        <option value="4000">$4,000</option>
+                        <option value="6000">$6,000</option>
+                        <option value="8000">$8,000</option>
+                        <option value="10000">$10,000</option>
+                        <option value="15000">$15,000</option>
+                        <option value="20000">$20,000</option>
+                        <option value="25000">$25,000</option>
+                        <option value="30000">$30,000</option>
+                        <option value="35000">$35,000</option>
+                        <option value="40000">$40,000</option>
+                        <option value="45000">$45,000</option>
+                        <option value="50000">$50,000</option>
+                        <option value="60000">$60,000</option>
+                        <option value="70000">$70,000</option>
+                        <option value="80000">$80,000</option>
+                        <option value="90000">$90,000</option>
+                        <option value="100000">$100,000</option>
+                        <option value="125000">$125,000</option>
+                        <option value="150000">$150,000</option>
+                        <option value="175000">$175,000</option>
+                        <option value="1">No Max Price</option>
+                    </select>
+                    <select aria-label="Select a year" name="yearId">
+                        <option selected="" value="0">Year</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                        <option value="1900">Pre-2000</option>
+
+                    </select>
+                    <select aria-label="Select a maximum distance" name="radius">
+                        <option value="10">10 Miles from</option>
+                        <option selected="" value="20">20 Miles from</option>
+                        <option value="30">30 Miles from</option>
+                        <option value="40">40 Miles from</option>
+                        <option value="50">50 Miles from</option>
+                        <option value="75">75 Miles from</option>
+                        <option value="100">100 Miles from</option>
+                        <option value="150">150 Miles from</option>
+                        <option value="200">200 Miles from</option>
+                        <option value="250">250 Miles from</option>
+                        <option value="500">500 Miles from</option>
+                        <option value="99999">All Miles from</option>
+                    </select>
+                    <input type="tel" aria-label="Enter a Zip Code" name="zip" value="" placeholder="ZIP" maxlength="5">
+                </form>
+            </div>
+            <div class="search-button">
+                <button>Search</button>
+            </div>
+        </div>
+    </section>
+    <section class="trending">
+        <h1>Trending Searches</h1>
+        <article class="trending-row">
+            <article class="trending-card">
+                <div class="trending-image">
+                    <img src="front-end/assets/trending/cx5.jpg" alt="Mazda CX 5">
+                    <div class="text-overlay">Trending Search: Mazda CX 5</div>
+                </div>
+            </article>
+            <article class="trending-card">
+                <div class="trending-image">
+                    <img src="front-end/assets/trending/model-x.jpg" alt="Tesla Model X">
+                    <div class="text-overlay">Trending Search: Tesla Model X</div>
+                </div>
+            </article>
+            <article class="trending-card">
+                <div class="trending-image">
+                    <img src="front-end/assets/trending/v90.jpg" alt="Volvo v90">
+                    <div class="text-overlay">Trending Search: Volvo v90</div>
+                </div>
+            </article>
+            <article class="trending-card">
+                <div class="trending-image">
+                    <img src="front-end/assets/trending/db11.jpg" alt="Aston Martin DB11">
+                    <div class="text-overlay">Trending Search: Aston Martin DB11</div>
+                </div>
+            </article>
+        </article>
+
+        <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+        <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+        <div class="dot-select">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+    </section>
+    <section class="featured">
+        <article class="featured-card">
+            <div class="featured-image">
+                <img src="front-end/assets/featured/spark.jpg" alt="Chevy Spark">
+            </div>
+            <div class="headline">
+                <h2>Featured Car:<br>Chevy Spark</h2>
+            </div>
+            <div class="para">
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. </p>
+            </div>
+        </article>
+        <article class="featured-card">
+            <div class="featured-image">
+                <img src="front-end/assets/featured/starex.jpg" alt="Hyundai Starex">
+            </div>
+            <div class="headline">
+                <h2>Featured Car:<br>Hyundai Starex</h2>
+            </div>
+            <div class="para">
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. </p>
+            </div>
+        </article>
+        <article class="featured-card">
+            <div class="featured-image">
+                <img src="front-end/assets/featured/xc40.jpg" alt="Volvo xc40">
+            </div>
+            <div class="headline">
+                <h2>Featured Car:<br>Volvo xc40</h2>
+            </div>
+            <div class="para">
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. </p>
+            </div>
+        </article>
+
+    </section>
+    <section class="body-search">
+        <article>
+            <h1>Find Your Style</h1>
+            <ul class="body-list">
+                <li>
+                    <a href="#">
+                        <div class="list-container">
+                            <div class="list-image">
+                                <img src="front-end/assets/body/sedan.jpg" alt="Sedans">
+                            </div>
+                            <div class="link-text">Sedan</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="list-container">
+                            <div class="list-image">
+                                <img src="front-end/assets/body/truck.jpg" alt="Pickup Trucks">
+                            </div>
+                            <div class="link-text">Pickup Truck</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="list-container">
+                            <div class="list-image">
+                                <img src="front-end/assets/body/suv.jpg" alt="SUVs">
+                            </div>
+                            <div class="link-text">SUV</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="list-container">
+                            <div class="list-image">
+                                <img src="front-end/assets/body/coup.jpg" alt="Coups">
+                            </div>
+                            <div class="link-text">Coup</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="list-container">
+                            <div class="list-image">
+                                <img src="front-end/assets/body/crossoversuv.jpg" alt="Crossover SUVs">
+                            </div>
+                            <div class="link-text">Crossover SUV</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="list-container">
+                            <div class="list-image">
+                                <img src="front-end/assets/body/hatchback.jpg" alt="Hatchbacks and Wagons">
+                            </div>
+                            <div class="link-text">Hatchback/Wagon</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="list-container">
+                            <div class="list-image">
+                                <img src="front-end/assets/body/minivan.jpg" alt="Minivans">
+                            </div>
+                            <div class="link-text">Minivan</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="list-container">
+                            <div class="list-image">
+                                <img src="front-end/assets/body/convertable.jpg" alt="Convertibles">
+                            </div>
+                            <div class="link-text">Convertible</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="list-container">
+                            <div class="list-image">
+                                <img src="front-end/assets/body/hybrid.jpg" alt="Electric & Hybrids">
+                            </div>
+                            <div class="link-text">Electric/Hybrid</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="list-container">
+                            <div class="list-image">
+                                <img src="front-end/assets/body/sportscar.jpg" alt="Sports Cars">
+                            </div>
+                            <div class="link-text">Sports Car</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="list-container">
+                            <div class="list-image">
+                                <img src="front-end/assets/body/luxury.jpg" alt="Luxury Vehicles">
+                            </div>
+                            <div class="link-text">Luxury</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="list-container">
+                            <div class="list-image">
+                                <img src="front-end/assets/body/certified.jpg" alt="Pre-Owned Certified">
+                            </div>
+                            <div class="link-text">Pre-Owned Certified</div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <select aria-label="Select your style" name="bodyId" class="body-style">
+                <option selected="" value="0">Select Your Body Style</option>
+                <option value="sedan">
+                    <div class="select-container">
+                        <div class="select-image">
+                            <img src="front-end/assets/body/sedan.jpg" alt="Sedans">
+                        </div>
+                        <div class="option-text">Sedan</div>
+                    </div>
+                </option>
+                <option value="truck">
+                    <div class="select-container">
+                        <div class="select-image">
+                            <img src="front-end/assets/body/truck.jpg" alt="Pickup Trucks">
+                        </div>
+                        <div class="option-text">Pickup Truck</div>
+                    </div>
+                </option>
+                <option value="suv">
+                    <div class="select-container">
+                        <div class="select-image">
+                            <img src="front-end/assets/body/suv.jpg" alt="SUVs">
+                        </div>
+                        <div class="option-text">SUV</div>
+                    </div>
+                </option>
+                <option value="coup">
+                    <div class="select-container">
+                        <div class="select-image">
+                            <img src="front-end/assets/body/coup.jpg" alt="Coups">
+                        </div>
+                        <div class="option-text">Coup</div>
+                    </div>
+                </option>
+                <option value="cross">
+                    <div class="select-container">
+                        <div class="select-image">
+                            <img src="front-end/assets/body/crossoversuv.jpg" alt="Crossover SUVs">
+                        </div>
+                        <div class="option-text">Crossover SUV</div>
+                    </div>
+                </option>
+                <option value="hatchback">
+                    <div class="select-container">
+                        <div class="select-image">
+                            <img src="front-end/assets/body/hatchback.jpg" alt="Hatchbacks and Wagons">
+                        </div>
+                        <div class="option-text">Hatchback/Wagon</div>
+                    </div>
+                </option>
+                <option value="van">
+                    <div class="select-container">
+                        <div class="select-image">
+                            <img src="front-end/assets/body/minivan.jpg" alt="Minivans">
+                        </div>
+                        <div class="option-text">Minivan</div>
+                    </div>
+                </option>
+                <option value="convertible">
+                    <div class="select-container">
+                        <div class="select-image">
+                            <img src="front-end/assets/body/convertable.jpg" alt="Convertibles">
+                        </div>
+                        <div class="option-text">Convertible</div>
+                    </div>
+                </option>
+                <option value="hybrid">
+                    <div class="select-container">
+                        <div class="select-image">
+                            <img src="front-end/assets/body/hybrid.jpg" alt="Electric & Hybrids">
+                        </div>
+                        <div class="option-text">Electric/Hybrid</div>
+                    </div>
+                </option>
+                <option value="sport">
+                    <div class="select-container">
+                        <div class="select-image">
+                            <img src="front-end/assets/body/sportscar.jpg" alt="Sports Cars">
+                        </div>
+                        <div class="option-text">Sports Car</div>
+                </option>
+                <option value="luxury">
+                    <div class="select-container">
+                        <div class="select-image">
+                            <img src="front-end/assets/body/luxury.jpg" alt="Luxury Vehicles">
+                        </div>
+                        <div class="option-text">Luxury</div>
+                    </div>
+                </option>
+                <option value="certified">
+                    <div class="select-container">
+                        <div class="select-image">
+                            <img src="front-end/assets/body/certified.jpg" alt="Pre-Owned Certified">
+                        </div>
+                        <div class="option-text">Pre-Owned Certified</div>
+                    </div>
+                </option>
+            </select>
+        </article>
+    </section>
+    <section class="testimonials">
+        <article class="recent-testimonial">
+            <div class="image">
+                <img src="front-end/assets/testimonials/raptor.jpg" alt="Ford Raptor">
+            </div>
+            <div class="headline">
+                <h2>Recent Testimonial</h2>
+            </div>
+            <div class="para">
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.</p>
+            </div>
+        </article>
+        <article class="recent-testimonial">
+            <div class="image">
+                <img src="front-end/assets/testimonials/lc500.jpg" alt="Lexus lc 500">
+            </div>
+            <div class="headline">
+                <h2>Recent Testimonial</h2>
+            </div>
+            <div class="para">
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.</p>
+            </div>
+        </article>
+        <article class="old-testimonial">
+            <div class="image">
+                <img src="front-end/assets/testimonials/peugeot.jpg" alt="Peugeot 208">
+            </div>
+            <div class="headline">
+                <h2>Testimonial</h2>
+            </div>
+            <div class="para">
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.</p>
+            </div>
+        </article>
+        <article class="old-testimonial">
+            <div class="image">
+                <img src="front-end/assets/testimonials/golf.jpg" alt="Volkswagen Golf">
+            </div>
+            <div class="headline">
+                <h2>Testimonial</h2>
+            </div>
+            <div class="para">
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.</p>
+            </div>
+        </article>
+    </section>

@@ -1,0 +1,12 @@
+<section id="editInformation">
+        <h2>Edit Personal Information for ${ user.username }:</h2>
+        <form action="settings" method="post">
+            <label for="firstName">First Name: </label>
+            <input type="text" name="firstName" placeholder="Enter New First Name" value="${ user.firstName }">            
+            <label for="lastName">Last Name: </label>
+            <input type="text" name="lastName" placeholder="Enter New Last Name" value="${ user.lastName }">
+            <label for="email">Email: </label>
+            <input type="email" name="email" placeholder="Enter New Email Address" maxlength="50" value="${ user.email }">
+            <button type="submit" name="update">Update</button>
+        </form>
+</section>

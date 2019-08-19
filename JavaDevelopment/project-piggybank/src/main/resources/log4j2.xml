@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="error" monitorInterval="30">
+
+	<Appenders>
+
+		<Console name="StdOut" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+
+		<File name="FileAppenderXtreme" filename="errors.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</File>
+
+		<File name="FileAppender" filename="output.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</File>
+	</Appenders>
+
+
+	<Loggers>
+
+		<Root level="error">
+			<AppenderRef ref="StdOut" />
+		</Root>
+
+		
+		<Logger name="com.fdmgroup.piggybank" level="error">
+			<AppenderRef ref="FileAppenderXtreme" />
+		</Logger>
+
+		
+		<Logger name="com.fdmgroup.piggybank.ConverterController" level="trace" additivity="false">
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+
+	
+
+	</Loggers>
+</Configuration>

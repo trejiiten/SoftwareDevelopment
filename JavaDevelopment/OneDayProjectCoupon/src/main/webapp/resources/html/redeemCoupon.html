@@ -1,0 +1,13 @@
+<%@ page import="java.util.List, com.fdmgroup.user.User, com.fdmgroup.coupon.Coupon"%>
+        
+       <section id="welcome">
+                <div class="heading">
+                        <h1>${ user.firstName } ${ user.lastName}</h1>
+                        <h2>Has redeemed the following Coupon: </h2>
+                    </div>
+            <p class="heading">
+                    <h2>Coupon Name: <strong>${ coupon.couponName }</strong></h2>
+                    <h2>Coupon value: <strong>${ coupon.couponValue }</strong></h2>
+            </p>
+        </section>
+       

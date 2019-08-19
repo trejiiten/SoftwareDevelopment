@@ -1,0 +1,38 @@
+<section id="settings-home">
+        <h2>${ user.username }'s Settings</h2>
+        <p>If you would like to change any personal information, please click the Edit button.</p>
+        <p>To change your Password, please click the Change Password button.</p>
+        <table class="user-information">
+            <thead>
+                <tr>
+                    <th>Field</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>First Name: </th><td>${ user.firstName }</td>
+                </tr>
+                 <tr>
+                     <th>Last Name: </th><td>${ user.lastName }</td>
+                </tr>
+                 <tr>
+                     <th>Email: </th><td>${ user.email }</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        <a href="editInformation">
+                            <button type="button">Edit</button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="changePassword">
+                            <button type="button">Change Password</button>
+                        </a>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+</section>

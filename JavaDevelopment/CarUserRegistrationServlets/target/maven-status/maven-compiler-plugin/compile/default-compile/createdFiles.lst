@@ -1,0 +1,15 @@
+com\fdmgroup\caruserregistration\controllers\RegisterServlet.class
+com\fdmgroup\caruserregistration\persistence\UsernameAlreadyExists.class
+com\fdmgroup\caruserregistration\persistence\UserDoesNotExist.class
+com\fdmgroup\caruserregistration\controllers\LogoutServlet.class
+com\fdmgroup\caruserregistration\persistence\JPAdao.class
+com\fdmgroup\caruserregistration\controllers\ChangePasswordServlet.class
+com\fdmgroup\caruserregistration\pojo\User.class
+com\fdmgroup\caruserregistration\controllers\LoggedInHomeServlet.class
+com\fdmgroup\caruserregistration\dao\EntityManagerFactorySingleton.class
+com\fdmgroup\caruserregistration\controllers\EMFListener.class
+com\fdmgroup\caruserregistration\dao\UserDao.class
+com\fdmgroup\caruserregistration\controllers\LoginServlet.class
+com\fdmgroup\caruserregistration\controllers\EditInformationServlet.class
+com\fdmgroup\caruserregistration\controllers\UserSettingsServlet.class
+com\fdmgroup\caruserregistration\pojo\UserFactory.class

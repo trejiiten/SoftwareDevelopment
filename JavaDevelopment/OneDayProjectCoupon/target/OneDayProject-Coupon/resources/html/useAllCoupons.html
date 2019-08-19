@@ -1,0 +1,33 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page import="java.util.List, com.fdmgroup.coupon.Coupon, com.fdmgroup.user.User"%>
+
+<section class="table">
+		
+		<div class="heading">
+                <h2>${ user.firstName } ${user.lastName}'s Coupons</h2>
+            </div>
+<table>
+		<tr>
+			<th>Coupon Name</th>
+			<th>Coupon's Value</th>
+			<th>Number of Coupons remaining</th>
+		</tr>
+		<c:forEach items="${ couponList }" var="coupon">
+		<sf:form action="redeemCoupon" method="Post" modelAttribute="useCoupon">
+			<tr>
+			
+				<td><c:out value="${ coupon.couponName }"/></td>
+				<sf:input path="couponName" value="${ coupon.couponName }" style="display:none"></sf:input>
+				<sf:input path="couponValue" value="${ coupon.couponValue }" style="display:none"></sf:input><td><c:out value="${ coupon.couponValue }"/></td>
+                <sf:input path="quantityRemaining" value="${ coupon.quantityRemaining }" style="display:none"></sf:input><td><c:out value="${ coupon.quantityRemaining }"/></td>
+                <td>
+                  <sf:input path="couponId" value="${ coupon.couponId }" style="display:none"></sf:input>
+                  <button type="submit" value="Use">Use</button>
+                </td>	
+			</tr>
+			</sf:form>
+		</c:forEach>
+		
+	</table>
+</section>	
+

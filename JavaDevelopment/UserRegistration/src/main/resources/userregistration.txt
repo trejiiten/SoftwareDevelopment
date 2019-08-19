@@ -1,0 +1,50 @@
+DROP TABLE USER_TABLE;
+
+CREATE TABLE USER_TABLE 
+ (
+  ID NUMBER(3) PRIMARY KEY,
+  USERNAME VARCHAR2(20),
+  NAME VARCHAR2(20),
+  PASSWORD VARCHAR2(20),
+  ROLL VARCHAR2(20)
+ );
+ 
+ CREATE OR REPLACE PROCEDURE addUser(
+ p_userId IN User_TABLE.id%TYPE,
+ p_username IN User_TABLE.username%TYPE,
+ p_name IN User_TABLE.name%TYPE,
+ p_password IN User_TABLE.password%TYPE,
+ p_roll IN User_TABLE.roll%TYPE)
+ 
+IS
+BEGIN
+    INSERT INTO USER_TABLE
+    VALUES (p_userId, p_username, p_name, p_password, p_roll);
+    
+  COMMIT;
+    
+  END;
+/
+
+CREATE OR REPLACE PROCEDURE updateUser(
+
+ p_username IN User_TABLE.username%TYPE,
+ p_name IN User_TABLE.name%TYPE,
+ p_password IN User_TABLE.password%TYPE,
+ p_roll IN User_TABLE.roll%TYPE,
+  p_userId IN User_TABLE.id%TYPE)
+ 
+IS
+BEGIN
+    UPDATE USER_TABLE
+    SET USERNAME = p_username, 
+        NAME = p_name, 
+        PASSWORD = p_password, 
+        ROLL = p_roll
+    WHERE ID = p_userId;
+    
+  COMMIT;
+    
+  END;
+/
+--ROLLBACK;

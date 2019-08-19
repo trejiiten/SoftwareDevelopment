@@ -1,0 +1,921 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto&display=swap');
+
+
+/* Base Setup */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #494949;
+    /* text-shadow: 2px 1px #494949; */
+    box-shadow: 1px 1px #494949;
+}
+
+button:focus {
+    outline: none;
+}
+
+section {
+    margin-bottom: 10%;
+    display: inline-block;
+}
+
+article {
+    background: #c4c4c4;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+/* 1. Header & navbar */
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #c4c4c4;
+}
+header.logo img{
+    object-fit: cover;
+}
+.toggle {
+    display: none;
+}
+.navbar {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    align-content: center;
+    line-height: 63px;
+    color: #f8f8f8;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar ul li a:hover {
+    color: #383838;
+}
+
+.navbar ul li button {
+    margin-top: 12px;
+    width: 100%;
+    background-color: #494949;
+    color: #f8f8f8;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    padding: 10px 7px;
+    display: block;
+    text-shadow: none;
+    border-radius: 5px;
+    align-content: center;
+    text-shadow: none;
+}
+
+.navbar ul li button:hover{
+    background-color: #9d9b9b;
+}
+
+/* 2. Hero Image */
+section.hero{
+    display: flex;
+    height: 400px;
+    position:relative;
+    overflow: hidden;
+    margin-bottom: -5%;
+}
+
+section.hero img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.headline-overlay {
+    position: absolute;
+  
+    top: 19px;
+    left: 28px;
+    font-size: 43px;
+    color: #f8f8f8;
+    width: 27%;
+    
+}
+/* 3. Search Fields */
+section.search {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10% auto;
+    width: 70%;
+    height: 10%;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background: #e5e5e5;
+}
+
+.search .container {
+    display: flex;
+}
+
+.search .button-links {
+    display: block;
+    overflow: hidden;
+    width: 15%;
+}
+
+.search .button-links button {
+    width: 80%;
+    background-color: #c4c4c4;
+    color: #f8f8f8;
+    padding: 7px 10px;
+    display: block;
+    margin: 7px 10px;
+}
+
+.search .search-make {
+    width: 40%;
+    height: 27px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #494949;
+    background: #c4c4c4;
+    color: #000;
+    margin: 7px 0;
+    line-height: 27px;
+}
+
+.search .search-fields {
+    width: 68%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.search-fields form {
+    border-radius: 15px;
+    margin-top: 10px;
+    height: 60%;
+    width: 95%;
+    overflow: hidden;
+    border: 1px solid #000;
+}
+
+.search .search-fields form select{
+    width: 50.5%;
+    height: 36.7%;
+    margin: -2px -3px 0;
+    padding-left: 5px;
+    color: #494949;
+}
+
+.search .search-fields form select option{
+   padding:5px;
+}
+
+.search .search-fields form select[name="radius"]{
+    width: 28.66%;
+}
+
+.search .search-fields form input[name="zip"]{
+    width: 22.1%;
+    height: 36.7%;
+    margin: -2px -3px 0;
+    padding-left: 5px;
+    color: #494949;
+}
+
+.search .search-button {
+    width: 15%;
+   align-self: center;
+   overflow: hidden;
+}
+
+.search .search-button button {
+    margin: 0;
+    width: 100%;
+    background-color: #c4c4c4;
+    color: #f8f8f8;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    padding: 30px 7px;
+    display: block;
+    text-shadow: none;
+    border-radius: 15px;
+   box-shadow:none;
+}
+
+.search .search-button button:hover, 
+.search .button-links button:hover {
+    background-color: #494949;
+}
+
+
+/* 4. Trending Section */
+section.trending{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-evenly;
+    background: #fff;
+    margin-bottom: 20%;
+}
+
+section.trending h1{
+    display: block;
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+section.trending article {
+    background: #fff;
+}
+article.trending-row{
+    flex-direction: row;
+}
+article.trending-card > .trending-image {
+    margin: 0px 10px 0px 10px;
+    position: relative;
+    text-align: center;
+}
+
+.trending-image {
+    width: 90%;
+}
+
+.trending-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 180px;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    font-size: 11px;
+    color: #c3c3c3;
+}
+.prev,.next,.dot{
+    display:none;
+}
+
+/*5. Featured Section */
+section.featured {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+article.featured-card {
+    width: 28%;
+    height: auto;
+    padding: 10px 10px 2px 10px;
+    margin-top: 0;
+    overflow: hidden;
+}
+
+article.featured-card > .featured-image {
+    position: relative;
+}
+
+.featured-image {
+    width: 100%;
+}
+
+.featured-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 180px;
+}
+
+article.featured-card.headline, 
+article.featured-card.para {
+    bottom: 0px;
+}
+
+article.featured-card h2 {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+article.featured-card p {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+/* 6. Select Body Type */
+section.body-search {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: 10% auto; 
+    background: #fff;
+}
+
+section.body-search article{
+    background: #fff;
+}
+
+section.body-search h1{
+    font-size: 48px;
+    text-align: center;
+    padding: 30px;
+}
+
+.body-search ul.body-list{
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.body-search ul.body-list li{
+    flex: 1 0 21%;
+    padding-bottom: 20px;
+}
+
+.body-search ul.body-list li a{
+    text-align: center;
+    text-decoration: none;
+    color: #000;    
+}
+.body-search ul.body-list li a:hover{
+    font-weight: bold;
+}
+
+.body-search ul.body-list li a.link-text {
+    font-size: 16px;
+    position: relative;
+}
+
+.body-search .body-style{
+    display: none;
+}
+
+
+/* 7. Testimonials */
+section.testimonials{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 80%;
+    margin: 5% auto;
+}
+
+article.recent-testimonial{ 
+    width: 40%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+article.old-testimonial { 
+    width: 30%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+section.testimonials .image {
+    width:100%;
+    overflow: hidden;
+    
+}
+
+.recent-testimonial .headline,
+.old-testimonial .headline {
+    width: 80%;
+    text-align: right;
+    justify-content: flex-end;
+    align-self: flex-end;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+.recent-testimonial .para,
+.old-testimonial .para {
+    width: 95%;
+    text-align: center;
+    justify-content: flex-end;
+    align-self: flex-end;
+    font-size: 11px;
+}
+
+article.recent-testimonial .image {
+    height: 60%;
+}
+article.old-testimonial .image {
+    height: 50%;
+}
+
+article.recent-testimonial .image img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+article.old-testimonial .image img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* 8. Footer */
+footer{
+
+    width: 100%;
+    height: 300px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    background: #c4c4c4;
+    padding: 50px;
+}
+
+footer h3 {
+    font-size: 16px;
+    padding: 7px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    padding: 3px;
+    text-align: center;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer li a:hover{
+    color:#f8f8f8;
+}
+footer .quick-links{
+    display:none;
+}
+
+/* 9. Added Back-end functionality */
+
+section#registration,
+section#changePassword,
+section#editInformation,
+section#settings-home,
+section#login,
+section.confirmation {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    margin-top: 8%;
+    margin-bottom: 20%;
+    text-align: center;
+    padding: 25px;
+}
+
+section#registration h1,
+section#registration form,
+section#login h2,
+section#settings-home h2,
+section#settings-home table,
+section#editInformation h2,
+section#changePassword h2,
+section.confirmation h1{
+    margin-bottom: 10px;
+}
+
+section#settings-home p,
+section#registration p,
+section.confirmation p {
+    margin-bottom: 8px;
+}
+
+section#registration input,
+section#registration button,
+section#login input,
+section#login button,
+section#editInformation input,
+section#editInformation button,
+section#changePassword input,
+section#changePassword button {
+    height: 40px; 
+}
+
+section#registration input,
+section#login input,
+section#changePassword input {
+    width: 325px;
+    margin-bottom: 5px;
+}
+
+section#settings-home p,
+section.confirmation p {
+    font-size: 20px;
+}
+
+section#editInformation{
+    display:block;
+}
+
+section#editInformation form {
+    overflow: hidden;
+}
+
+section#editInformation label {
+    float: left;
+    width: 148px;
+    padding-right: 9px;
+    line-height: 38px;
+}
+
+section#editInformation input {
+    float: left;
+    width: calc(100% - 200px);
+}
+
+section#editInformation label,
+section#editInformation input {
+    margin-bottom: 8px;
+}
+
+section#registration button,
+section#login button,
+section#editInformation button,
+section#changePassword button {
+    width: 300px;
+    background-color: #c4c4c4;
+    color: #f8f8f8;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 10px 7px;
+    text-shadow: none;
+    border-radius: 5px; 
+}
+
+section#settings-home table{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+section#settings-home table thead th {
+    height: 45px;
+}
+
+section#settings-home table tbody th {
+    height: 25px;
+}
+
+section#settings-home table tfoot th {
+    height: 55px;
+}
+
+section#settings-home table tfoot button {
+    width: 250px;
+    background-color: #494949;
+    color: #f8f8f8;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 10px 7px;
+    text-shadow: none;
+    border-radius: 5px; 
+}
+
+section#registration button:hover,
+section#login button:hover,
+section#editInformation button:hover,
+section#changePassword button:hover,
+section#settings-home table tfoot button:hover {
+    background-color: #494949;
+}
+
+section p#exception {
+    margin-top: 10px;
+    color: #ec0024;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 320px){
+    article{
+        display:block;
+    }
+
+    /* 1. navbar */
+    header{
+        height: 60px;
+    }
+    header.logo {
+        height:80%;
+        width:auto;
+        
+    }
+    .headline-overlay {
+        top: 6px;
+        left: 10px;
+        font-size: 19px;
+        color: #f8f8f8;
+        width: 100%;
+    }
+
+    .logo {
+        position: absolute;
+        overflow: hidden;
+        height: 60px;
+    }
+
+    header.logo img{
+       
+        display: block;
+        object-fit: cover;
+    }
+
+    header img {
+        width: 88%;
+        display: block; 
+    }
+    .toggle{
+        position: absolute;
+        display: block;
+        align-self: center;
+        cursor: pointer;
+        right: 0;
+        padding-right: 5px;
+    }
+    .toggle i{
+        font-size: 60px;
+        
+    }
+
+    .toggle i:hover{
+        color: #f8f8f8;
+    }
+    .navbar{display: none;}
+    .navbar ul {
+        top: 60px;
+        flex-direction: column;
+        background: #9d9b9b;
+        color: #494949;
+        position: relative;
+        width: 320px;
+        left: 0;
+        z-index: 1;
+    }
+
+    .navbar ul li {
+        text-align: center;
+        padding: 3px;
+    }
+
+    .navbar ul li button {
+        margin: 0px 0px 6px 28px;
+        width: 80%;
+        
+    }
+    /* 2. hero */
+    section.hero{
+        height: 100px;
+    }
+    /* 3. search */
+    section.search,
+    .search .container{
+        display:block;
+    }
+    section.search{
+        width: 95%;
+    }
+    
+    
+    .search .search-button,
+    .search .search-fields{
+        display: inline-block;
+        overflow: hidden;
+        width: 100%;
+    }
+    .search .button-links {
+        display: inline-block;
+        overflow: hidden;
+        width: 95%;
+        margin-left: 8px;
+    }
+
+    .search .search-make {
+        width: 85%;
+        height: 27px;
+        text-align: center;
+        font-weight: bold;
+        border: 1px solid #494949;
+        background: #c4c4c4;
+        color: #000;
+        margin: 0px 20px 5px 20px;
+        line-height: 27px;
+    }
+
+    .search .button-links button {
+        width: 30%;
+        background-color: #c4c4c4;
+        color: #f8f8f8;
+        padding: 12px 10px;
+        display: inline;
+        margin: 7px 3px;
+    }
+    .search .search-fields form{
+        margin: 0 7px;
+        width: 280px;
+        height: 80%;
+        background: #fff;
+        
+    }
+    .search .search-fields form select,
+    .search .search-fields form input[name="zip"]{
+        display:block;
+        width:282px;
+        height: 40px;
+        border: 1px solid #000;
+    }
+    .search .search-fields form select[name="radius"],
+    .search .search-fields form input[name="zip"]{
+        width:282px;
+    }
+    .search .search-fields form input[name="zip"]{
+        padding-left: 9px;
+    }
+    .search .search-button button{
+        padding: 15px 7px;
+        width: 95%;
+        margin: 1px 7px;
+    }
+    /* 4. trending */
+    section.trending h1 {
+        font-size: 36px;
+        width: 98%;
+    }
+    
+    section.trending, 
+    article.trending-row{
+        display:block;
+        margin-left: 4px;
+    }
+
+    .prev,
+.next {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    /* margin-top: -22px; */
+    padding: 16px;
+    color: #222428;
+    font-weight: bold;
+    font-size: 30px;
+    transition: .6s ease;
+    border-radius: 0 3px 3px 0
+}
+
+.next {
+    right: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev {
+    left: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev:hover,
+.next:hover {
+    color: #f2f2f2;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: none;
+        transition: background-color .6s ease;
+        margin: 20px auto;
+    }
+    
+    /* 5. featured */
+    section.featured {
+        display:block;
+    }
+    article.featured-card {
+        width:90%;
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    article.featured-card h2 {
+        font-size: 22px;
+    }
+    article.featured-card p {
+        font-size: 12px;
+    }
+    /* 6. body style */
+    section.body-search{
+        width:90%;
+    }
+    
+    .body-search .body-style{
+        display: block;
+        width:150%;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 16px;
+        border: 1px solid #000;
+        margin: 20% 0%;
+        padding: 5px;
+    }
+    .body-search ul.body-list,
+    section.body-search h1{
+        display: none;
+    }
+    /* 7. testimonials */
+    section.testimonials{
+        display:block;
+        margin-bottom: 20%;
+    }
+    article.recent-testimonial,
+    article.old-testimonial{
+        width:100%;
+        align-items: center;
+    }
+
+    .recent-testimonial .headline,
+.old-testimonial .headline,
+.recent-testimonial .para,
+.old-testimonial .para{
+    width:100%;
+}
+
+    /* 8. footer */
+    footer{
+        display: block;
+        padding: 0 10px;
+    }
+    footer .links{
+        display:none;
+    }
+    footer .quick-links{
+        padding-top:10px;
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    footer .quick-links select{
+        height: 40px;
+        width: 100%;
+        margin-top:3px;
+        background:#fff;
+        border: 1px solid #000;
+        border-radius: 5px;
+    }
+    footer .logo{
+        height: 155px;
+        margin: 17px 43px;
+        display: block;
+        overflow: hidden;
+    }
+    
+}

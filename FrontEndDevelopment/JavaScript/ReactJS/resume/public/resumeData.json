@@ -1,0 +1,264 @@
+{
+  "main": {
+    "name":"Todd Rings",
+    "occupation":"Web developer, programmer, manager, and educator",
+    "description":"I design and program websites and web applications using JavaScript and React. I also taught English to children and business professionals in Seoul, South Korea for over 13 years.",
+    "image":"profilepic.jpg",
+    "bio":"I am a violinist turned marketer turned ESL educator turned self-taught programmer. I current specialize in JavaScript (ECMAScript 5 and 6) along with an extra focus on React js. I believe that if something does not yet exist, it can be built. I am a creative thinker that also enjoys long walks along just about anything. When I am not trying to better myself by learning programming, I am either teaching a variety of South Korean adults English, or walking in excess of 20km a day (that means a pair of shoes does not last longer than a year). When I have time, I volunteer as a Cub Scout leader for the area of Seoul that I live. I have certification to lead cub scouts, and once I have returned to the states, I plan to receive certification to be a scout leader to young adults. If you want, I can even teach useful scouting knots that could one day save someone's life (or at least make a damn fine tent).",
+    "email": "trejiiten@gmail.com",
+    "phone": "+82-10-4096-0955",
+    "address":{
+      "street":"#202, 18-3, World Cup-ro 23-gil",
+      "city":"Mapo-gu",
+      "state":"Seoul",
+      "zip": "04011"
+    },
+    "website": "https://www.toddandseohee.co.nf/resume",
+    "resumedownload":"https://www.toddandseohee.co.nf/resume/toddrings-resume.pdf",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://facebook.com/trejiiten",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com/toddrings",
+        "className":"fa fa-twitter"
+      },
+     
+      {
+        "name":"linkedin",
+        "url":"http://linkedin.com/in/todd-rings/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/toddrings",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/trejiiten",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"skype:trejiiten?chat",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "education":[
+      {
+        "school":"Texas Christian University",
+        "degree":"B.B.A. Degree in Business",
+        "graduated":"May 2005",
+        "description":"I studied Marketing with an International Emphasis at Texas Christian University in Fort Worth, TX. While there I also minored in Japanese. I was involved in 5 different students organizations, primarilly related with different cultures while also serving as president of an organization that originated as TCU's first table-top RPG organization."
+      }
+    ],
+    "work":[
+      {
+        "company":"BCM",
+        "title":"Outsourced English Teacher || Freelance",
+        "years":"Jan 2018 - Present",
+        "description":"Outsourced English Teacher to business professionals. I teach a 1:1 Business English and General Conversation class with an Executive at Lotte Home Shopping."
+      },
+      {
+        "company":"YJ Sisa",
+        "title":"Outsourced English Teacher || Freelance",
+        "years":"Jan 2018 - Present",
+        "description":"Outsourced English Teacher to business professionals. I teach a group of business professionals Business English and General Conversation at GS Holdings."
+      },
+      {
+        "company":"YBM",
+        "title":"Outsourced English Teacher || Freelance",
+        "years":"Jan 2018 - Present",
+        "description":"Outsourced English Teacher to business professionals. I teach a group of business professionals General Conversation at Hanyu Energy. I taught Business English and Debate to a group of upper management professionals at Hyundai Merchant Marines (Jan 2017 - Apr 2017)"
+      },
+      {
+        "company":"Carrot Global",
+        "title":"Outsourced English Teacher || Freelance",
+        "years":"Mar 2017 - Present",
+        "description":"Outsourced English Teacher to business professionals. I have taught at a variety of different companies ranging from 1:1 to small and large group classes."
+      },
+      {
+        "company":"Calm Island, Co., Ltd.",
+        "title":"Manager || Head Teacher Trainer",
+        "years":"Sept 2017 - Dec 2017",
+        "description":"Manager of teacher trainer team at an ESL start-up company that specializes in pre-school ESL materials. I conducted demo lessons for new teachers at various Badanamu (product name) centers utilizing all in-house products and curriculum, communicated with various Badanamu center managers, conducted product training for new hires, communicated with upper management, and composed the company's monthly in-house newsletter."
+      },
+      {
+        "company":"Seoul Yeomri Elementary School",
+        "title":"After School English Teacher",
+        "years":"March 2017 - Aug 2017",
+        "description":"Served as an English teacher with the school's after school program. My duties included lesson planning, progress reports, supplementary material creation, and classroom management for elementary students grades 1 through 6."
+      },
+      {
+        "company":"Hongik University Elementary School",
+        "title":"English Teacher || Manager, Head Native English Teacher",
+        "years":"March 2010 - Feb 2014, March 2015 - Feb 2017",
+        "description":"Prior to the restructuring of the English department, I served as the Head Native English teacher for the 2012 and 2013 school years at a top private elementary school in the Mapo district of Seoul. Alongside teaching duties such as lesson planning, test creation, supplementary material creation, and level testing, my other duties included teacher observations and evaluations, weekly meetings, communication with head of education department at the school. I also created, edited, and administered the school's first English newspaper created by the students, for the students."
+      },
+      {
+        "company":"Eunseok Elementary School",
+        "title":"English Teacher",
+        "years":"March 2014 - Feb 2015",
+        "description":"Native English teacher at a private elementary school. Duties included lesson planning, test creation, supplementary material creation, and progress reports."
+      },
+      {
+        "company":"Seoul Mirae Elementary School",
+        "title":"After School English Teacher",
+        "years":"Oct 2008 - Feb 2010",
+        "description":"Served as an English teacher with the school's after school program. My duties included lesson planning, progress reports, and classroom management for elementary students grades 1 through 6."
+      },
+      {
+        "company":"TNL School",
+        "title":"Head English Teacher | Native English Teacher Manager",
+        "years":"Sept 2007 - Sept 2008",
+        "description":"I served as the first English Head Teacher/Native English Teacher manager during TNL School's innaugural. Alongside teaching students of kindergarden and elementary ages, my duties included lesson planning, monthoy planning, training of new teachers, communicating with the school's owner and relaying information to the teachers, class creation, and curriculum planning."
+      },
+      {
+        "company":"Seocho Wonderland",
+        "title":"English Teacher",
+        "years":"Aug 2005 - Aug 2007",
+        "description":"Taught English to kindergarden and elementary school students at an English Language academy. Along with teaching, I was required to make lesson plans, monthly progress reports, supplimentary homework, and assist in a variety of other non-teaching duties."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Photoshop",
+        "level":"40%"
+      },
+      {
+        "name":"InDesign",
+        "level":"70%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"CSS",
+        "level":"60%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"70%"
+      },
+      {
+        "name":"jQuery",
+        "level":"60%"
+      },
+      {
+        "name":"React",
+        "level":"60%"
+      },
+      {
+        "name":"node",
+        "level":"40%"
+      },
+      {
+        "name":"PHP",
+        "level":"40%"
+      },
+      {
+        "name":"Korean",
+        "level":"78%"
+      },
+      {
+        "name":"Office",
+        "level":"90%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Coffee Cup",
+        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category":"Illustrator",
+        "tags":"Branding, Web Design",
+        "image":"coffee.jpg",
+        "url":"http://port1.com",
+        "modal":"#modal-01"
+      },
+      {
+        "title":"Console",
+        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category":"Web Design",
+        "tags":"Branding, Web Development",
+        "image":"console.jpg",
+        "url":"http://port2.com",
+        "modal":"#modal-02"
+      },
+      {
+        "title":"Judah",
+        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category":"Web Development",
+        "tags":"Branding, Web Programming",
+        "image":"judah.jpg",
+        "url":"http://port3.com",
+        "modal":"#modal-03"
+      },
+      {
+        "title":"Into The Light",
+        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category":"Photography",
+        "tags":"Photography, Design",
+        "image":"into-the-light.jpg",
+        "url":"http://port4.com",
+        "modal":"#modal-04"
+      },
+      {
+        "title":"Farmer Boy",
+        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category":"Branding",
+        "tags":"Branding, Web Design",
+        "image":"farmerboy.jpg",
+        "url":"http://port5.com",
+        "modal":"#modal-05"
+      },
+      {
+        "title":"Girl",
+        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category":"Photography",
+        "tags":"Photography, Graphic Design",
+        "image":"girl.jpg",
+        "url":"http://port6.com",
+        "modal":"#modal-06"
+      },
+      {
+        "title":"Origami",
+        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category":"Illustration",
+        "tags":"Branding, Illustration",
+        "image":"origami.jpg",
+        "url":"http://port7.com",
+        "modal":"#modal-07"
+      },
+      {
+        "title":"Retrocam",
+        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category":"Web Development",
+        "tags":"Photography",
+        "image":"retrocam.jpg",
+        "url":"http://port8.com",
+        "modal":"#modal-08"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "user":"John Doe"
+      },
+      {
+        "text":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "user":"Steve Smith"
+      }
+    ]
+  }
+}

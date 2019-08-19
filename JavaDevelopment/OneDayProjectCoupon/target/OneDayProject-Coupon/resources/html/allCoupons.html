@@ -1,0 +1,25 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page import="java.util.List, com.fdmgroup.user.User, com.fdmgroup.coupon.Coupon"%>
+<section class="table">
+		
+		<div class="heading">
+                <h2>${ user.firstName } ${user.lastName}'s Coupons</h2>
+            </div>
+<table>
+		<tr>
+			<th>Coupon Name</th>
+			<th>Coupon's Value</th>
+			<th>Number of Coupons remaining</th>
+		</tr>
+		<c:forEach items="${ couponList }" var="coupon">
+			<tr>
+				<td><c:out value="${ coupon.couponName }"/></td>
+				<td><c:out value="${ coupon.couponValue }"/></td>
+                <td><c:out value="${ coupon.quantityRemaining }"/></td>
+                
+			</tr>
+		</c:forEach>
+		
+	</table>
+</section>	
+

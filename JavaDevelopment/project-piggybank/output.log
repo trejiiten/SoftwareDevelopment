@@ -1,0 +1,132 @@
+15:23:35.476 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=JPY, amount=12196]
+15:23:35.476 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.0082
+15:23:35.488 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=HKD, amount=100]
+15:23:35.488 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 8.8257
+15:23:35.489 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=JPY, amount=100]
+15:23:35.489 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 121.96
+15:23:35.489 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=USD, amount=88.83]
+15:23:35.489 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 1.1257
+15:23:35.489 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=USD, amount=100]
+15:23:35.489 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.8883
+15:23:35.489 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=HKD, amount=882.57]
+15:23:35.489 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.1133
+15:26:50.555 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=USD, amount=100]
+15:26:50.555 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.8883
+15:28:54.813 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=JPY, amount=12196]
+15:28:54.813 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.0082
+15:28:54.823 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=HKD, amount=100]
+15:28:54.823 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 8.8257
+15:28:54.824 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=JPY, amount=100]
+15:28:54.824 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 121.96
+15:28:54.824 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=USD, amount=88.83]
+15:28:54.824 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 1.1257
+15:28:54.824 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=USD, amount=100]
+15:28:54.824 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.8883
+15:28:54.824 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=HKD, amount=882.57]
+15:28:54.824 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.1133
+15:29:25.387 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=KRW, amount=100]
+15:29:25.387 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 1324.33
+15:30:14.917 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=KRW, amount=100]
+15:30:14.917 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.0008
+15:31:16.825 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=KRW, amount=100]
+15:31:16.825 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 1324.33
+15:31:34.618 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=KRW, amount=100000]
+15:31:34.634 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.0008
+15:32:46.340 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=KRW, amount=100000]
+15:32:46.340 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.0008
+15:34:35.710 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=KRW, amount=100000]
+15:34:35.710 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.0008
+15:35:31.422 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=KRW, amount=100000]
+15:35:31.422 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0
+15:36:38.068 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=KRW, amount=100000]
+15:36:38.068 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.0008
+15:37:45.281 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=KRW, amount=100000]
+15:37:45.281 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.0007550988
+15:39:04.785 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=IDR, amount=159900]
+15:39:04.785 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.0000625390
+15:40:23.124 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=IDR, amount=159900000]
+15:40:23.124 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.0000625390478179813521067216343204288177430783345351253689022083163175007395242404476294886619833258
+16:14:41.024 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=JPY, amount=12196]
+16:14:41.040 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.0081994096425057395867497540177107248278123975073794686782551656280747786159396523450311577566415218
+16:14:41.047 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=HKD, amount=100]
+16:14:41.047 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 8.8257
+16:14:41.048 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=JPY, amount=100]
+16:14:41.048 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 121.96
+16:14:41.048 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=USD, amount=88.83]
+16:14:41.048 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 1.1257
+16:14:41.048 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=USD, amount=100]
+16:14:41.048 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.8883361463977969263569334636226348050102158656835746646531047348316603002576174824553611086435107045
+16:14:41.048 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=HKD, amount=882.57]
+16:14:41.048 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.1133054601901265621990323713699763191588202635485004022343836749492958065649183634159330138119355972
+16:17:31.404 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=JPY, amount=12196]
+16:17:31.419 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.0081994096425057395867497540177107248278123975073794686782551656280747786159396523450311577566415218
+16:17:31.424 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=HKD, amount=100]
+16:17:31.424 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 8.8257
+16:17:31.424 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=JPY, amount=100]
+16:17:31.424 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 121.96
+16:17:31.424 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=USD, amount=88.83]
+16:17:31.424 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 1.1257
+16:17:31.424 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=USD, amount=100]
+16:17:31.424 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.8883361463977969263569334636226348050102158656835746646531047348316603002576174824553611086435107045
+16:17:31.424 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=HKD, amount=882.57]
+16:17:31.424 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.1133054601901265621990323713699763191588202635485004022343836749492958065649183634159330138119355972
+16:19:53.748 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=null, amount=100]
+16:19:53.748 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: null
+16:39:52.506 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+16:39:52.521 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=USD, amount=100]
+16:39:52.521 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 1.1257
+16:44:30.474 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+16:44:30.474 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=null, amount=null]
+16:44:30.474 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: null
+17:06:07.742 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+17:06:07.742 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=KRW, amount=100000]
+17:06:07.742 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.0007550988046785921937885572327139006138953282036954535500970301964011990969018296044037362288855497
+17:07:33.571 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+17:07:33.571 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=KRW, amount=100000]
+17:07:33.571 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.0007550988046785921937885572327139006138953282036954535500970301964011990969018296044037362288855497
+17:10:08.622 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+17:10:08.622 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=JPY, amount=12196]
+17:10:08.622 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.0081994096425057395867497540177107248278123975073794686782551656280747786159396523450311577566415218
+17:10:08.637 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+17:10:08.637 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=HKD, amount=100]
+17:10:08.637 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 8.8257
+17:10:08.638 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+17:10:08.638 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=JPY, amount=100]
+17:10:08.638 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 121.96
+17:10:08.638 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+17:10:08.638 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=USD, amount=88.83]
+17:10:08.638 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 1.1257
+17:10:08.638 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+17:10:08.638 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=USD, amount=100]
+17:10:08.638 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.8883361463977969263569334636226348050102158656835746646531047348316603002576174824553611086435107045
+17:10:08.638 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+17:10:08.638 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=HKD, amount=882.57]
+17:10:08.638 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.1133054601901265621990323713699763191588202635485004022343836749492958065649183634159330138119355972
+08:45:46.183 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+08:45:46.186 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=usd, amount=545454]
+08:45:46.186 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: null
+08:46:09.776 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+08:48:49.020 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+08:48:49.033 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=usd, amount=545454]
+08:48:49.033 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: null
+08:49:21.224 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+08:49:21.228 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=usd, amount=54]
+08:49:21.228 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: null
+08:50:13.718 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+08:50:13.721 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=usd, amount=5]
+08:50:13.721 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: null
+08:53:11.223 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+08:53:11.226 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=USD, amount=5]
+08:53:11.226 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 1.1257
+08:58:44.713 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+08:58:44.716 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=USD, amount=5]
+08:58:44.716 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 1.1257
+08:58:55.921 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1163, HRK=7.4155, MXN=22.0886, ZAR=16.5890, INR=78.0475, CNY=7.7754, THB=35.302, AUD=1.6114, ILS=4.0604, KRW=1324.33, JPY=121.96, PLN=4.2778, GBP=0.88631, IDR=15990.01, HUF=321.51, PHP=58.280, TRY=6.4344, RUB=73.3295, ISK=139.50, HKD=8.8257, DKK=7.4682, USD=1.1257, CAD=1.5070, MYR=4.6711, BGN=1.9558, NOK=9.7738, RON=4.7243, SGD=1.5364, CZK=25.657, SEK=10.6255, NZD=1.6943, BRL=4.3427}
+08:58:55.923 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=USD, amount=5]
+08:58:55.923 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.8883361463977969263569334636226348050102158656835746646531047348316603002576174824553611086435107045
+09:18:50.922 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1174, HRK=7.4215, MXN=22.2767, ZAR=16.7523, INR=78.0180, CNY=7.7880, THB=35.285, AUD=1.6132, ILS=4.0543, KRW=1328.90, JPY=121.82, PLN=4.2788, GBP=0.88558, IDR=15990.96, HUF=321.30, PHP=58.249, TRY=6.5014, RUB=73.4704, ISK=139.30, HKD=8.8333, DKK=7.4687, USD=1.1266, CAD=1.5096, MYR=4.6872, BGN=1.9558, NOK=9.8083, RON=4.7221, SGD=1.5363, CZK=25.663, SEK=10.6175, NZD=1.6983, BRL=4.3659}
+09:18:50.938 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=USD, amount=100]
+09:18:50.938 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 0.8876264867743653470619563287768507012249245517486241789454997337120539676903958814131013669447896325
+09:19:02.562 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRates HashMap of currencyXML: {CHF=1.1174, HRK=7.4215, MXN=22.2767, ZAR=16.7523, INR=78.0180, CNY=7.7880, THB=35.285, AUD=1.6132, ILS=4.0543, KRW=1328.90, JPY=121.82, PLN=4.2788, GBP=0.88558, IDR=15990.96, HUF=321.30, PHP=58.249, TRY=6.5014, RUB=73.4704, ISK=139.30, HKD=8.8333, DKK=7.4687, USD=1.1266, CAD=1.5096, MYR=4.6872, BGN=1.9558, NOK=9.8083, RON=4.7221, SGD=1.5363, CZK=25.663, SEK=10.6175, NZD=1.6983, BRL=4.3659}
+09:19:02.562 [main] DEBUG com.fdmgroup.piggybank.ConverterController - UserInput object: UserInput [currency=KRW, amount=450000]
+09:19:02.562 [main] DEBUG com.fdmgroup.piggybank.ConverterController - ConversionRate: 1328.90
